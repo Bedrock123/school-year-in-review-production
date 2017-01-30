@@ -1,4 +1,4 @@
-# School Review
+# School Year In Review
 
 [View the live demo](http://la-school-review.netlify.com/)
 
@@ -21,9 +21,10 @@ The number inside of the html element is overridden by countup, but I would inpu
 
 ```javascript
 // CountUp.JS Configuration
-    var days = new CountUp("days-read", 0, 362, 0, 12.5, options);
-    var hours = new CountUp("hours-read", 0, 1925, 0, 12.5, options);
-    var mins = new CountUp("avg-min-read", 0, 325, 0, 12.5, options);
-    var weekends = new CountUp("weekends-read", 0, 118, 0, 12.5, options);
+  var booksToShelf = new CountUp("books-to-shelf", 0, 34, 0, 5.5, options);
+  var daysRead = new CountUp("days-read", 0, 12, 0, 5.5, options);
+  var pagesRead = new CountUp("pages-read", 0, 12, 0, 5.5, options);
+  var weekendsRead = new CountUp("weekends-read", 0, 4, 0, 5.5, options);
+
 ...
 ```
