@@ -13,11 +13,11 @@ All of the first name instances are labeled as:
 ...
 ```
 
-<span id="firt-name">&lt;/span</span>
-
 For the numbers in the statistics bar I am using CountUp.Js for the effect. The Count Up Variables are defined in the inline footer script at the bottom of the page.
 
-You will have to change the 362 here. The one inside of the html element is overridden by countup, but I would input it there as well incase countup fails.
+**Importante Note: All of the reading stats are controlled by the CountUp.JS Script. I placed all of the custom init scripts in the html page for your reference.**
+
+The number inside of the html element is overridden by countup, but I would input it there as well incase countup fails.
 
 ```javascript
 // CountUp.JS Configuration
